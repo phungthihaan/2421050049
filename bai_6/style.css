@@ -94,6 +94,7 @@ button {
     margin: 20px auto;
     border: 1px solid #2fa4e7;
     border-radius: 10px;
+    
 }
 
 .tin-tren {
@@ -139,4 +140,12 @@ img {
 .xem-tiep {
     color: #2fa4e7;
     text-decoration: none;
+}
+.bai-viet_2 {
+    width: 25%;
+    margin-right: 20px;
+}
+.danh_sach_1{
+    color:gray;
+    
 }
