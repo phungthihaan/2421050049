@@ -90,7 +90,7 @@ button {
 
 .tin {
     width: 95%;
-    height: 300px;
+    height: 275px;
     margin: 20px auto;
     border: 1px solid #2fa4e7;
     border-radius: 10px;
@@ -145,7 +145,40 @@ img {
     width: 25%;
     margin-right: 20px;
 }
-.danh_sach_1{
-    color:gray;
+.danh_muc_phai{
+    background-color:white;
+    border-left:1px solid gray;
     
+   flex:1;
+   
+    
+}
+.danh_sach_muc_phai{
+    
+    gap:15px;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    
+
+}
+.muc_phai{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray;
+    padding:9px;
+}
+.lien_ket_muc_phai{
+     
+    color: gray;
+    text-decoration: none;
+    padding-right: 15px;
+
+}
+.thoi_gian_phai{
+    color:gray;
+    display:flex;
+    justify-content: end;
+
 }
