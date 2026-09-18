@@ -27,7 +27,7 @@ main {
 
 .khoi-trai {
     width: 20%;
-    height: 90vh;
+    height: 1000px;
     /* để vẽ viền dùng border
                 border sẽ có 3 tham số (độ dày - loại đường viền - màu sắc)
             */
@@ -148,26 +148,27 @@ img {
 .danh_muc_phai{
     background-color:white;
     border-left:1px solid gray;
-    
-   flex:1;
-   
-    
+    padding-top:0px;
+    padding-left:0px;
+   flex: 1;
 }
 .danh_sach_muc_phai{
-    
-    gap:15px;
-    padding:0px;
-    margin:0px;
+    display:flex;
+     gap:15px;
     list-style:none;
+    margin:0; 
+    padding:0;
+    
     
 
 }
 .muc_phai{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+   
     border-bottom:1px solid gray;
-    padding:9px;
+    
 }
 .lien_ket_muc_phai{
      
