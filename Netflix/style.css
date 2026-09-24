@@ -72,6 +72,7 @@ header {
     width: 90%;
     justify-content: space-between;
     margin: auto;
+    
 }
 
 .the-loai {
@@ -85,6 +86,7 @@ header {
     width: 19%;
     height: 20vh;
     
+    
     img{
         width:100%;
         border-radius: 20px;
@@ -92,4 +94,29 @@ header {
 }
 h3{
     margin-left:75px;
+}
+footer{
+    width: 95%;
+    height: 20vh;
+    
+    
+    img{
+       
+        width:100%;
+        border-radius:50% ;
+        
+    }
+    
+}
+footer {
+    width: 95%;
+    height: 20vh;
+        
+    gap: 10px;           /* Khoảng cách giữa các ảnh */
+    
+    img {
+        width: 200px;         /* Chiều rộng cố định */
+        height: 200px;        /* Chiều cao bằng chiều rộng */
+        border-radius: 50%;   /* Đưa border-radius vào đây để ảnh thành hình tròn */
+    }
 }

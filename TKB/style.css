@@ -1,0 +1,248 @@
+body {
+
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5 20px;
+    align-items: center;
+    background-color: #2fa4e7;
+    height: 50px;
+
+
+}
+
+.danh-sach-muc {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+
+}
+
+.lien-ket-muc {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.muc {
+    padding: 10px 20px;
+    border-radius: 20px;
+    ;
+}
+
+.logo {
+    width: 5%;
+    border-radius: 20px;
+}
+
+.khoi-trai {
+    display: flex;
+    justify-content: flex-start;
+    width: 24%;
+    height: 1000px;
+    background-color: white;
+    border-right: 2px solid #2fa4e7;
+}
+
+.lien-ket-trai {
+
+    text-decoration: none;
+}
+
+.danh-sach-muc-trai {
+    list-style: none;
+    width: 90%;
+    gap: 15px;
+    margin-left: 0 px;
+    padding-left: 7px;
+    margin-top: 0px;
+}
+
+.muc-trai {
+
+    padding: 15px;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    margin: auto;
+
+
+}
+
+.dang-chon {
+    background-color: #7fc4ea;
+    color: white;
+}
+
+.muc-trai:hover {
+    background-color: rgb(183, 181, 181);
+}
+
+.khoi-phai {
+    width: 76%;
+    height: 1000 px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.tin {
+    width: 98%;
+    height: 1200px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+
+}
+
+.tin-tren {
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 40px;
+}
+
+.tieu-de {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.khoi-chon {
+
+    margin: 17px;
+    width: 95%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+
+
+}
+
+.khoi-chon-tren {
+    display: flex;
+    justify-content: flex-start;
+    gap: 9px;
+
+    select {
+        border-radius: 10px;
+        padding: 0 px;
+        font-size: 15px;
+
+        height: 40px;
+
+
+    }
+
+}
+
+.chon-tuan {
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: end;
+    margin-top: 9px;
+
+    select {
+        border-radius: 10px;
+        padding: 0 px;
+        font-size: 15px;
+
+        height: 40px;
+
+
+    }
+}
+.tin-duoi{
+    width: 95%;
+    height: 1000px;
+    margin: 15px auto;
+    
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+    .bang-tkb{
+        width:100%;
+        height: 1000px;
+        border: 1px solid #2fa4e7; 
+    }
+    
+}
+
+.cot-1{
+    width:50px;
+    background-color: #2fa4e7;
+    color:white;
+    height:65px;
+    text-align:center;
+    font-weight: bold;
+
+}
+.hang-thu-hep{
+    height:30px;
+    width:50px;
+    background-color: #2fa4e7;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+
+}
+.hang-mo-rong{
+    height:90px;
+    width:50px;
+    background-color: #2fa4e7;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+
+}
+
+
+
+
+.cot-giua{
+    width:150px;
+    background-color: white;
+   
+}
+.mon-hoc{
+    
+     background-color:#2fa4e7 ;
+     vertical-align: top;
+     padding: 8px 3px 3px 3px;
+     font-size: 13px;
+      
+     width:150px;
+     
+     
+
+}
+b{
+    font-weight: bold;
+    color:black;
+}
+.mon-hoc, .mon-hoc b, .mon-hoc span {
+    color: black !important;
+    
+
+}
+.thoi-gian{
+    border-bottom:1px solid gray ;
+    padding-top: 5px; 
+    margin-top: 5px;
+}
