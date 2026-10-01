@@ -25,6 +25,9 @@ header {
     padding: 0;
 
 }
+a{
+    color: white;
+}
 
 .lien-ket-muc {
     text-decoration: none;
