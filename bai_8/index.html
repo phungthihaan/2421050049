@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+        //internal
+        document.writeln("hello <br> world !");
+        //external
+         var tenSinhVien = "Thu Thuy";
+
+        var tuoi = 21;
+        //nối chuỗi 
+         document.writeln("ten sinh vien là " + tenSinhVien );
+          var a = "10";
+        var b = "5.5";
+        var tong = parseInt(a)+parseFloat(b);
+        document.writeln(tong);
+        //kiểm tra độ dài 
+         document.writeln( tenSinhVien.length);
+         //kiểm tra sự tồn tại 
+document.writeln( tenSinhVien.indexOf("h"));
+document.writeln( tenSinhVien.includes("h"));
+document.writeln( tenSinhVien.replace("Thu","Thanh"));
+// kiểm tra kí tự bắt đầu 
+document.writeln(tenSinhVien.startsWith("thu"));
+//viết hoa 
+document.writeln(tenSinhVien.toUpperCase(tenSinhVien) );
+document.writeln(tenSinhVien.toLowerCase(tenSinhVien) );
+//date
+var homNay = Date();
+document.writeln(homNay );
+var ngay = Date(20/11/2026)
+document.writeln(ngay );
+//lấy năm 
+var nam = homNay.getFullYear();
+document.writeln(nam );
+
+
+
+       
+
+
+
+
+
+
+
+        
+    </script>
+    <script src ="script.js">
+
+            
+         </script>
+
+</body>
+</html>
