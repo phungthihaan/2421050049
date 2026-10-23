@@ -252,48 +252,59 @@
         // switch case
         var d = new Date();
         var theDay = d.getDay();
-        switch(theDay){
+        switch (theDay) {
             case 5:
-                 document.writeln("Finally friday ");
-                 break;
-                 case 6:
-                 document.writeln("Finally saturday ");
-                 break;
-                 case 0:
-                 document.writeln("sleepy sunday ");
-                 break;
-                 default:
-                  document.writeln("i'm looking forward to this weekend ");
-                  break;
+                document.writeln("Finally friday ");
+                break;
+            case 6:
+                document.writeln("Finally saturday ");
+                break;
+            case 0:
+                document.writeln("sleepy sunday ");
+                break;
+            default:
+                document.writeln("i'm looking forward to this weekend ");
+                break;
 
         }
 
         //for
-        for(var i = 1; i<=2; i++){
+        for (var i = 1; i <= 2; i++) {
             document.writeln("<br>xin chào  " + i);
 
 
-        var danhSachSinhVien = ["thuy","mai","tuan","thang","thao"];
-        //  document.writeln("<br> xin chào "+ danhSachSinhVien[0]);
-        //  for(var i = 0; i<danhSachSinhVien.length; i++){
-        //     document.writeln("<br>  " + i +"<br>");
-        //      document.writeln("xin chào   " + danhSachSinhVien[i] );
+            var danhSachSinhVien = ["thuy", "mai", "tuan", "thang", "thao"];
+            //  document.writeln("<br> xin chào "+ danhSachSinhVien[0]);
+            //  for(var i = 0; i<danhSachSinhVien.length; i++){
+            //     document.writeln("<br>  " + i +"<br>");
+            //      document.writeln("xin chào   " + danhSachSinhVien[i] );
 
-         }
-        for(i =0; i<danhSachSinhVien.length; i++ ){
-
-            
-           if(danhSachSinhVien[i]=="tuan"||danhSachSinhVien[i]=="thuy"){
-            document.writeln("xin chào   " + danhSachSinhVien[i] );
-
-           }
+        }
+        for (i = 0; i < danhSachSinhVien.length; i++) {
 
 
-            
-              
+            if (danhSachSinhVien[i] == "tuan" || danhSachSinhVien[i] == "thuy") {
+                document.writeln("xin chào   " + danhSachSinhVien[i]);
+
             }
 
-        
+        }
+        //popup boxes
+        // alert("xin chào");
+
+        // //comfirm box -dùng để xác nhận 
+        // var r = confirm("press a button");
+        // if(r==true){
+        //     document.write("you pressed ok")
+        // }
+        // else{
+        //     document.write("you pressed cancel")
+        // }
+
+        //prompt box - nhập thông tin
+        r = prompt ("nhập vào họ tên " ,"nhập tên vào đây ");
+         document.write(r);
+
 
 
     </script>
@@ -302,4 +313,4 @@
 
 </body>
 
-</html>
+</html> 
