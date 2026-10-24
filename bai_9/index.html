@@ -19,29 +19,27 @@
         <h1>chế độ sáng </h1>
         <img src="../anh/mattroi.png" alt="">
         <div>
-            <button onclick ="doichedo()">đổi chế độ </button>
+            <button onclick ="doiCheDo()">đổi chế độ </button>
         </div>
 
     </div>
     <script>
-        var chedohientai=true;
-        function doichedo(){
-            if(chedohientai==true){
-                document.getElementByTagName("body")[0].style ="background-color:black" ;
-            document.getElementByTagName("h1")[0].innerHTML ="chế độ tối " ;
-            document.getElementByTagName("body")[0].style ="color:white" ;
-            document.getElementByTagName("img")[0].src ="../anh/mattrang.png" ;
-           chedohientai=false;
-            }
-            else{
-                 document.getElementByTagName("body")[0].style ="background-color:whte" ;
-            document.getElementByTagName("h1")[0].innerHTML ="chế độ sáng  " ;
-            document.getElementByTagName("body")[0].style ="color:black" ;
-            document.getElementByTagName("img")[0].src ="../anh/mattroi.png" ;
-           chedohientai=true;
+       var cheDoHienTai = true;
+        function doiCheDo(){
+            if( cheDoHienTai == true){
+                document.getElementsByTagName("body")[0].style = "background-color: black";
+                document.getElementsByTagName("h1")[0].innerHTML = "Chế độ tối";
+                document.getElementsByTagName("h1")[0].style = "color: white";
+                document.getElementsByTagName("img")[0].src = "../anh/mattrang.png";
+                cheDoHienTai = false;
+            }else{
+                document.getElementsByTagName("body")[0].style = "background-color: white";
+                document.getElementsByTagName("h1")[0].innerHTML = "Chế độ sáng";
+                document.getElementsByTagName("h1")[0].style = "color: black";
+                document.getElementsByTagName("img")[0].src = "../anh/mattroi.png";
+                cheDoHienTai = true;
 
             }
-            
         }
 
     </script>
