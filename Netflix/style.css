@@ -95,19 +95,8 @@ header {
 h3{
     margin-left:75px;
 }
-footer{
-    width: 95%;
-    height: 20vh;
-    
-    
-    img{
-       
-        width:100%;
-        border-radius:50% ;
-        
-    }
-    
-}
+
+
 footer {
     width: 95%;
     height: 20vh;
