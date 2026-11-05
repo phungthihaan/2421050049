@@ -66,6 +66,14 @@ header {
 
 
 }
+.video{
+     width:95%;
+     display:flex;
+    border-radius: 20px;
+    height:600px;
+    margin:auto;
+
+}
 
 .danh-sach-phim {
     display: flex;
@@ -101,11 +109,53 @@ footer {
     width: 95%;
     height: 20vh;
         
-    gap: 10px;           /* Khoảng cách giữa các ảnh */
-    
-    img {
-        width: 200px;         /* Chiều rộng cố định */
-        height: 200px;        /* Chiều cao bằng chiều rộng */
-        border-radius: 50%;   /* Đưa border-radius vào đây để ảnh thành hình tròn */
+    margin:auto;
+    h3{
+         margin-left:40px;
     }
+
+    
+    /* img {
+        width: 200px;         /* Chiều rộng cố định */
+        /* height: 200px;        /* Chiều cao bằng chiều rộng */
+        /* border-radius: 50%;   /* Đưa border-radius vào đây để ảnh thành hình tròn */
+    /* } */
+     /* */ 
+}
+.danh_sach_nhan_vat{
+      display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.nhan_vat{
+    width: 19%;
+    height: 20vh;
+    
+    
+    img{
+        width:100%;
+        border-radius: 50%;
+    }
+
+
+}
+.danh-sach-chan-trang{
+     display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top:100px;
+
+
+}
+.danh-sach{
+     display: flex;
+     width: 20%;
+      height: 30vh;
+      
+       gap:10px;
+       flex-direction: column;
+    
 }
