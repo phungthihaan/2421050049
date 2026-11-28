@@ -1,11 +1,11 @@
 <?php
 //1 sesion
-sessio_start(); // bắt đầu session
+session_start(); // bắt đầu session
 $_SESSION['NAME'] = "user";
 echo "Session Name:" . $_SESSION['NAME'];
 
 //2.cookie
-$cookieName = "use";
+$cookieName = "user";
 $cookieValue = "HaAn";
 setcookie($cookieName ,$cookieValue, time () + 86400, "/");
 if(isset($_COOKIE[$cookieName])){
